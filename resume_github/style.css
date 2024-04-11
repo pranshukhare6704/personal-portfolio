@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.body {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nav-wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: end;
+}
+.nav-main{
+    width: 518px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.two-col-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-main-left-col{
+    width: 136px;
+    
+}
+.author-name {
+    font-size: 24px;
+    color: #0C0C0C;
+    font-family: "Handlee", cursive;
+    font-style: normal;
+}
+.nav-main-right-col{
+    width: 218px;
+}
+.nav-link{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #0C0C0C;
+}
+
+/* .nav-main1{
+    display: grid;
+    grid-template-columns: 11% 0%;
+    justify-content: right;
+}
+.nav-main2{
+    display: grid;
+    grid-template-columns: 22% auto;
+    justify-content: right;
+} */
+.main-container{
+    background-image: radial-gradient(#e0dfdf 20%, #fbfbfb 20%), radial-gradient(#f8f8f8 20%, #d22e2e 20%);
+    background-color: #e53935;
+    background-position: 0 0, 50px 50px;
+    background-size: 10px 10px;
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-left-color: black;
+}
+.main-body1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+    transform: rotate(-6deg);
+}
+.animated-name{
+    background-color: #FFC9F0;
+    font-family: "Handlee", cursive;
+    font-size: 32px;
+}
+.main-body2{
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    justify-content: space-between;
+    align-items: end;
+}
+.heading1{
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+}
+/*.box1{
+    width: 204px;
+    height: 22px;
+    background-color: #FFC9F0;
+}*/
+.para1{
+    font-family: "Inter", sans-serif;
+    font-size: 24px; 
+    margin-top: 7px;
+}
+.btn1{
+    background: black;
+    color: white;
+    width: 206px;
+    height: 70px;
+    margin-top: 31px;  
+}
+.what-i-do{
+    background-color: #FFC9F0;
+    width: 140px;
+    height: 43px;
+    margin-top: 105px;
+    margin-left: 95px;
+    text-align: center;
+    font-family: "Handlee", cursive;
+    font-size: xx-large;
+}
+.animated-arrow{
+    margin-top: 37px;
+    margin-left: 92px;
+}
+.rotate-image{
+    transform: rotate(274deg);
+}
+.animated-boxes{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.box1{
+    background-color: #FFE68C;
+    width: 377px;
+    height: 452px;
+    margin-top: 28px;
+    transform: rotate(-4deg);
+    border: solid;
+    border-color: #EECD56;
+    border-radius: 8px;
+    border-width: thick;
+    position: relative;
+}
+.box1-text {
+    background-color: #9DDCFF;
+    width: fit-content;
+    font-family: "Handlee", cursive;
+    font-size: 32px;
+    position: absolute;
+    top: 75px;
+    right: -30px;
+}
+.inner-box1{
+    margin-top: 166px;
+    margin-left: 74px;
+}
+.inner-h1{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    margin-top: 24px;
+}
+.box2{
+    background-color: #9DDCFF;
+    width: 377px;
+    height: 452px;
+    margin-top: 21px;
+    transform: rotate(2.4deg);
+    border: solid;
+    border-color: #5AB5E8;
+    border-radius: 8px;
+    border-width: thick;
+}
+.inner-box2{
+    margin-top: 166px;
+    margin-left: 74px;
+}
+.inner-h2{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    margin-top: 24px;
+}
+.box3{
+    background-color: #FFC9F0;
+    width: 377px;
+    height: 452px;
+    margin-top: 21px;
+    transform: rotate(-2.5deg);
+    border: solid;
+    border-color: #F384D4;
+    border-radius: 8px;
+    border-width: thick;
+}
+.inner-box3{
+    margin-top: 166px;
+    margin-left: 74px;
+}
+.inner-h3{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    margin-top: 24px;
+}
+/*Starting of Section 4*/
+
+.section4{
+    margin-top: 136px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.section4-1{
+    margin-top: 92px;
+    margin-left: 95px;
+}
+.para4-1-1{
+    background-color: #FFC9F0;
+    font-family: "Handlee", cursive;
+    font-size: 32px;
+    width: 234px;
+    height: 43px;
+}
+.arrow4-1-1{
+    margin-left: 186px;
+    margin-top: 23px;
+    transform: rotate(-139.34deg);
+    width: 77.54px;
+    height: 45.12px;
+}
+.para4-1-2{
+    margin-top: 42px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    width: 253px;
+    height: 68px;
+}
+.section4-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.same-size4{
+    width: 405px;
+    height: 454px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #000000;
+}
+.section4-2-3{
+    margin-top: 26px;
+}
+.section4-2-4{
+    margin-top: 26px;
+}
+.sec4box1image{
+    margin-left: 17px;
+    margin-top: 23px;
+}
+.no-code{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+.paranocode{
+    font-family: "Handlee", cursive;
+    font-size: 28px;
+}
+.sec4box2image{
+    margin-left: 17px;
+    margin-top: 23px;
+}
+.ui-design{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+.parauidesign{
+    font-family: "Handlee", cursive;
+    font-size: 28px;
+}
+.sec4box3image{
+    margin-left: 17px;
+    margin-top: 23px;
+}
+.ux-design{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+.parauxdesign{
+    font-family: "Handlee", cursive;
+    font-size: 28px;
+}
+.sec4box4image{
+    margin-left: 17px;
+    margin-top: 23px;
+}
+.ui-design2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+.parauidesign2{
+    font-family: "Handlee", cursive;
+    font-size: 28px;
+}
+/*End of 4th sec*/
+
+/* Starting of 5th sec */
+.sec5{
+    display: grid;
+    grid-template-columns: 30% 10% 60%;
+    justify-content: space-between;
+    margin-top: 121px;
+}
+.tbl{
+     
+}
+.image5sec{
+    display: block;
+}
+.arrow5sec{
+    transform: rotate(232deg);
+    margin-top: 18px;
+    margin-left: 186px
+}
+.para5sec{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    margin-top: 44px;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+/*th{
+    font-weight:bold;
+    background-color:#ddd;
+}*/
+th,
+td{
+    padding:0.5em;
+    border:1px solid #000;
+}
+.row1-1{
+    border-top: none;
+    border-left: none;
+}
+.row1-2{
+    border-top: none;
+}
+.row1-3{
+    border-top: none;
+    border-right: none;
+}
+.row2-1{
+    border-left: none;
+}
+.row2-3{
+    border-right: none;
+}
+.row3-1{
+    border-left: none;
+    border-bottom: none;
+}
+.row3-2{
+    border-bottom: none;
+}
+.row3-3{
+    border-right: none;
+    border-bottom: none;
+}
+
+/*end of 5th section*/
+
+
+
+
+/*.experience-container {
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 100px auto 100px;
+    margin-top: 110px;
+}*/
+.experience-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+.th{
+    padding:0.5em;
+    border:1px solid #000;
+}
+.sec6{
+    margin-top: 113px;
+    margin-left: 11px;
+}
+.sec6-1{
+    
+}
+.sec6-1-1{
+    font-family: "Handlee", cursive;
+    font-size: 32px;
+    background-color: #FFC9F0;
+    width: 20%;
+}

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.C1 {
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+/*for div of class 2 logo vale ke liye--> */
+.C2 {
+    background: blueviolet;
+}
+
+
+/*for div of class 3 -->*/
+.C3 {
+    background: brown;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    width: 367px;
+}
+
+.C4 {
+    background: antiquewhite;
+}
+
+.C5 {
+    background: aqua;
+}
+
+.C6 {
+    background: burlywood;
+}
+
+.C7 {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: stretch;
+}
+
+.C8 {
+    background-color: aliceblue;
+}
+
+.C9 {
+    font-family: cursive;
+}
+
+.C12 {
+
+  
+
+}
+
+.C14 {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+
+.C19 {
+    display: grid;
+    
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+}
+
+.C22 {
+    display: grid;
+    
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.C25 {
+    display: grid;
+    
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.C28 {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+
+.C31 {
+    background-color: rgb(168, 180, 38);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.C34 {
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.C38 {
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+
+.C41 {
+    background-color: rgb(214, 231, 19);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.C44 {
+    background-color: rgb(107, 95, 91);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.C48 {
+    background-color: #b4ecad;
+    justify-content: center;
+}
+
+.C52 {
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center
+}
+
+.box1 {
+    width: 200px;
+    height: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box2 {
+    width: 200px;
+    height: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.C53 {
+    background-color: rgb(141, 223, 223);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center
+}
+.box3{
+    width: 200px;
+    height: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
